@@ -1,0 +1,174 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+
+h2 {
+
+}
+
+.header,
+.landing,
+.features,
+.testimonials,
+.cta,
+.footer {
+    padding: 0 128px;
+}
+
+.landing,
+.features,
+.testimonials,
+.cta {
+    padding: 16px 128px 32px 128px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    flex-shrink: 0;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.nav,
+.header,
+.footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.landing {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    gap: 36px;
+    height: 250px;
+    flex: 1;
+}
+
+.button-dark,
+.button-light {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border: transparent;
+    border-radius: 4px;
+    padding: 4px 24px;
+}
+
+.button-light {
+    border: solid;
+    border-color: white;
+    border-radius: 8px;
+    border-width: 1px;
+}
+
+.placeholder {
+    background-color: lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 32px;
+}
+
+.features {
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.featureset {
+    color:#1F2937;
+    font-size: 12px;
+    justify-content: space-around;
+    flex: 1;
+}
+
+
+.box {
+    height: 80px;
+    width: 80px;
+    border-radius: 8px;
+    border: solid lightblue;
+}
+
+.testimonials {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 64px 256px 64px 256px;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color:#1F2937;
+}
+
+.testimonials h3 {
+    align-self:flex-end;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cta {
+    padding: 64px 128px 64px 128px;
+}
+
+.modal {
+    background-color: #3882F6;
+    padding: 32px;
+    color:#F9FAF8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.footer {
+    background-color: #1F2937;
+    flex-shrink: 0;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    position: sticky; 
+    bottom: 0;  
+}
